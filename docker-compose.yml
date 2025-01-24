@@ -31,3 +31,4 @@ services:
 networks:
   default_net:
     name: default_net
+    external: true

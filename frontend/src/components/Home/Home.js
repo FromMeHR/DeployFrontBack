@@ -8,7 +8,7 @@ function Home() {
 
   const getHello = async () => {
     try {
-      const response = await axios.get('http://localhost/api/hello')
+      const response = await axios.get('http://107.20.195.239/api/hello') // or axios.get('/api/hello')
       setHello(response.data.Hello)
     } catch (error) {
       console.error(error)
